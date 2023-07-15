@@ -1,0 +1,258 @@
+/* General Styles */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
+/* Header Styles */
+header {
+
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.logo img {
+  padding-left: 20px;
+  width: 90px;
+  height: 90px;
+  margin-right: 400px;
+}
+
+h1 {
+
+  text-align: center;
+  text-decoration: none;
+  color: rgb(152, 65, 93);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/*  Navigation Style */
+nav {
+  background-color: #c2b8b8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #0c101a;
+}
+
+a:hover {
+  background-color: #626a7e;
+}
+
+
+/* Home Styles  */
+#home {
+
+  padding: 200px;
+  background-image: url(pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#home h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 56px;
+  color: #fff;
+}
+
+#home p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 44px;
+  color: #fff;
+
+}
+
+#pics {
+  margin: 0px;
+  padding: 200px;
+  background-image: url(img2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+#pics p {
+  font-size: 30px;
+  color: #060505;
+  text-align: center;
+}
+
+
+/* Product Page Styles */
+#product { margin: 0px;
+background-color:#d6cece;
+text-align: center;
+}
+
+.product-row {
+  display: flex;
+
+}
+#product h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#product ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#product ul li {
+  margin-bottom: 5px;
+}
+
+#product input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+
+.container {
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+
+.container img {
+
+  width: 200px;
+  height: 170px;
+  border-radius: 60%;
+  margin-bottom: 0px;
+}
+.product-row {
+  display:-ms-flexbox;
+
+}
+
+.product {
+  margin: 20px;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  background-color: #d6cece;
+}
+
+#filters { margin: 0px;
+  background-color:#d6cece;
+  text-align: center;
+  }
+
+#filters h2 {
+  text-align: center;
+}
+
+#filters img {
+
+  width: 200px;
+  height: 170px;
+  border-radius: 60%;
+  margin-bottom: 0px;
+}
+.filters-row {
+  display: flex;
+
+}
+
+.filters {
+  margin: 20px;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  background-color: #d6cece;
+}
+
+
+/* About Styles */
+
+#about {
+  background-color: rgb(250, 250, 250);
+  padding: 50px;
+  text-align: center;
+
+}
+
+#about h2 {
+  color: rgb(122, 45, 49);
+}
+
+#about p {
+  color: black;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+#about ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#about h2:hover {
+  background-color: #d7dbdc;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+  font-style: bold;
+  padding: 1em;
+  background: rgba(25, 25, 25, 0.90);
+  width: 100%;
+  font-size: 90%;
+  text-align: center;
+  color: #EAEAEA;
+  position: relative;
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #EAEAEA;
+}
+
+footer p {
+  margin: auto;
+  text-decoration: none;
+  color: #EAEAEA;
+}
